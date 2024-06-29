@@ -1,0 +1,148 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+height:100%;
+width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color:white;
+}
+nav{
+    height:50px;
+    width:100%;
+ 
+    
+  /*  background-color: brown;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    
+
+  
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+ #menu{
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: 500px;
+ }
+   
+    #icon{
+     align-items: flex-start;
+     justify-content: left;
+        border: 1px solid black;
+        border-radius: 30px;
+        box-sizing: border-box;
+        padding: 5px 10px;
+       
+        
+
+    }
+    #signup{
+        border:1px solid black;
+        border-radius: 30px;
+        padding: 5px 10px;
+        align-items: center;
+        background-color: hsl(20.5 90.2% 48.2%);
+        font-weight: 400;
+    line-height: 28px;
+    color: white;
+    }
+    #login{
+        border:1px solid black;
+        border-radius: 30px;
+        font-weight: 400;
+        line-height: 28px;
+        align-items: center;
+        padding: 5px 10px;
+    }
+    #denytech{
+        font-weight: 700px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    #main>h1{
+        font-size: 150px;
+        text-transform: uppercase;
+        color:black;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+        width: 100%;
+        text-align: center;
+        
+
+        
+    }
+    img{
+           width: 400px;
+           height: 500px;
+           object-fit: cover;
+           position: absolute;
+            top:50%;
+           left: 50%;
+           transform:translate(-50%,-50%);
+           text-align: center;
+           border-radius: 10%;
+
+    }
+    #img1{
+        transform:translate(-50%,-50%) rotate(-30deg);
+        
+    }
+    #img2{
+        transform:translate(-50%,-50%) rotate(-20deg);
+        
+    }
+    #img3{
+        transform:translate(-50%,-50%) rotate(-10deg);
+        
+    }
+footer h2{
+    position:absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+    font: weight 30px;
+
+}
+#dot{
+    font-size: 50px;
+    color: red;
+    position:absolute;
+    bottom: 7%;
+    left: 3%;
+}
+#icons{
+    display: flex;
+    position:absolute;
+    bottom: 5%;
+    right:3%;
+    padding:5px 15px;
+
+}
+footer h3{
+    position:absolute;
+    bottom: 4%;
+    right:3%;
+    font-size: 15px;
+    padding-top: 10px;
+    justify-content: space-between;
+
+}
+       
+    
